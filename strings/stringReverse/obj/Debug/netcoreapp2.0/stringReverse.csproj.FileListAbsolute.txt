@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\bin\Debug\netcoreapp2.0\stringReverse.deps.json
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\bin\Debug\netcoreapp2.0\stringReverse.runtimeconfig.json
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\bin\Debug\netcoreapp2.0\stringReverse.runtimeconfig.dev.json
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\bin\Debug\netcoreapp2.0\stringReverse.dll
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\bin\Debug\netcoreapp2.0\stringReverse.pdb
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netcoreapp2.0\stringReverse.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netcoreapp2.0\stringReverse.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netcoreapp2.0\stringReverse.AssemblyInfo.cs
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netcoreapp2.0\stringReverse.dll
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netcoreapp2.0\stringReverse.pdb
