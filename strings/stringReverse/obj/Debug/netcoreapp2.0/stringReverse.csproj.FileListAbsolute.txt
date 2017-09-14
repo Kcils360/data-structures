@@ -8,3 +8,4 @@ C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netc
 C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netcoreapp2.0\stringReverse.AssemblyInfo.cs
 C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netcoreapp2.0\stringReverse.dll
 C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netcoreapp2.0\stringReverse.pdb
+C:\Users\admin\source\repos\data-structures\strings\stringReverse\obj\Debug\netcoreapp2.0\stringReverse.csprojResolveAssemblyReference.cache
