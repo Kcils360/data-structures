@@ -18,3 +18,4 @@ namespace lab02_gregory
         }
     }
 }
+//decrimented for loop
