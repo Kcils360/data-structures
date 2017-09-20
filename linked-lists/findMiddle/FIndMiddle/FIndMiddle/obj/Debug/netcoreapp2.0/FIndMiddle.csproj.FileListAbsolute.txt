@@ -1,0 +1,11 @@
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\bin\Debug\netcoreapp2.0\FIndMiddle.deps.json
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\bin\Debug\netcoreapp2.0\FIndMiddle.runtimeconfig.json
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\bin\Debug\netcoreapp2.0\FIndMiddle.runtimeconfig.dev.json
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\bin\Debug\netcoreapp2.0\FIndMiddle.dll
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\bin\Debug\netcoreapp2.0\FIndMiddle.pdb
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\obj\Debug\netcoreapp2.0\FIndMiddle.csprojResolveAssemblyReference.cache
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\obj\Debug\netcoreapp2.0\FIndMiddle.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\obj\Debug\netcoreapp2.0\FIndMiddle.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\obj\Debug\netcoreapp2.0\FIndMiddle.AssemblyInfo.cs
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\obj\Debug\netcoreapp2.0\FIndMiddle.dll
+C:\Users\admin\source\repos\data-structures\linked-lists\findMiddle\FIndMiddle\FIndMiddle\obj\Debug\netcoreapp2.0\FIndMiddle.pdb
