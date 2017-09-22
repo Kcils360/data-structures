@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\data-structures\\linked-lists\\nth-from-end\\nthFromEnd\\nthFromEnd.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\data-structures\\linked-lists\\New folder\\nthFromEnd\\nthFromEnd.csproj",
       "projectName": "nthFromEnd",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\data-structures\\linked-lists\\nth-from-end\\nthFromEnd\\nthFromEnd.csproj",
+      "projectPath": "C:\\Users\\admin\\source\\repos\\data-structures\\linked-lists\\New folder\\nthFromEnd\\nthFromEnd.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\data-structures\\linked-lists\\nth-from-end\\nthFromEnd\\obj\\",
+      "outputPath": "C:\\Users\\admin\\source\\repos\\data-structures\\linked-lists\\New folder\\nthFromEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
