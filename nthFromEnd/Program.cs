@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FIndMiddle
 {
@@ -22,12 +23,19 @@ namespace FIndMiddle
 
             lnklist.PrintAllNodes();
             Console.WriteLine();
-            lnklist.FindMiddle();
+            //lnklist.FindMiddle();
 
-            Console.WriteLine("Please type a number to find n");
+            Console.WriteLine("Please type a number to find n from end");
             lnklist.NthFromEnd(Convert.ToInt32(Console.ReadLine()));
 
             Console.ReadKey();
+
+
+            Console.WriteLine("Please type the value of the node to be removed");
+            lnklist.DeleteNode(Console.ReadLine());
+            
+
+            Console.Read();
         }
     }
 }

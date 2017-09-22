@@ -9,3 +9,14 @@ C:\Users\admin\source\repos\data-structures\linked-lists\nth-from-end\nthFromEnd
 C:\Users\admin\source\repos\data-structures\linked-lists\nth-from-end\nthFromEnd\obj\Debug\netcoreapp2.0\nthFromEnd.AssemblyInfo.cs
 C:\Users\admin\source\repos\data-structures\linked-lists\nth-from-end\nthFromEnd\obj\Debug\netcoreapp2.0\nthFromEnd.dll
 C:\Users\admin\source\repos\data-structures\linked-lists\nth-from-end\nthFromEnd\obj\Debug\netcoreapp2.0\nthFromEnd.pdb
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\bin\Debug\netcoreapp2.0\nthFromEnd.deps.json
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\bin\Debug\netcoreapp2.0\nthFromEnd.runtimeconfig.json
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\bin\Debug\netcoreapp2.0\nthFromEnd.runtimeconfig.dev.json
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\bin\Debug\netcoreapp2.0\nthFromEnd.dll
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\bin\Debug\netcoreapp2.0\nthFromEnd.pdb
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\obj\Debug\netcoreapp2.0\nthFromEnd.csprojResolveAssemblyReference.cache
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\obj\Debug\netcoreapp2.0\nthFromEnd.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\obj\Debug\netcoreapp2.0\nthFromEnd.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\obj\Debug\netcoreapp2.0\nthFromEnd.AssemblyInfo.cs
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\obj\Debug\netcoreapp2.0\nthFromEnd.dll
+C:\Users\admin\source\repos\data-structures\linked-lists\New folder\nthFromEnd\obj\Debug\netcoreapp2.0\nthFromEnd.pdb
