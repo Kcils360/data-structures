@@ -4,14 +4,15 @@ using System.Text;
 
 namespace FIndMiddle
 {
-    public class LinkedList
+    public class LinkedLists
     {
         private Node head;
         private Node tail;
+        private Node prev;
         private Node current;
         public int Count;
 
-        public LinkedList()
+        public void LinkedList()
         {
             head = new Node();
             current = head;
@@ -39,24 +40,14 @@ namespace FIndMiddle
             Console.Write("null"); //tail sentinel
         }
 
-        //public void FindMiddle()
-        //{
-        //    Node slow = head;
-        //    Node fast = head;
-        //    while (fast != null && fast.Next != null)
-        //    {
-        //        fast = fast.Next.Next;
-        //        slow = slow.Next;
-        //    }
-        //    Console.WriteLine("The middle node is " + slow.Value);
-        //}
+
 
         public void NthFromEnd(int n)
         {
             Node second = head;
             Node current = head;
 
-            for(int i = 0; i < n-1; i++)
+            for (int i = 0; i < n - 1; i++)
             {
                 if (current != null)
                 {
@@ -67,7 +58,7 @@ namespace FIndMiddle
                     Console.WriteLine("null");   //if n is bigger than list length
                 }
             }
-            while(current.Next != null)
+            while (current.Next != null)
             {
                 current = current.Next;
                 second = second.Next;
@@ -100,7 +91,7 @@ namespace FIndMiddle
                 prevNode = currNode;
                 node = node.Next;
             }
-             PrintAllNodes();
+            PrintAllNodes();
         }
 
         public void DubLinkLists(object val, object where)
@@ -111,20 +102,20 @@ namespace FIndMiddle
             while (node.Next != where)
             {
                 currNode = node.Next;
-
-
+                
+             
             }
             if (node.Next == where)
             {
-                node.Next.Value = val;
-                node.Next.Prev.Value = val;
-                val = node.Next.Prev.Value;
-                val = node.Next.Value;
-                node.Next.Value = val;
-
+                node.Next = val;
+                node.Next.Prev = val;
+                val.Next = node.Next.Prev;
+                val.Prev = node.Next;
+                node.Next = val;
+                
             }
             PrintAllNodes();
-        }
+        }   
 
     }
 }

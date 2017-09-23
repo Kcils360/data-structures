@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace FIndMiddle
 {
@@ -33,9 +32,17 @@ namespace FIndMiddle
 
             Console.WriteLine("Please type the value of the node to be removed");
             lnklist.DeleteNode(Console.ReadLine());
-            
+
+            Console.WriteLine("Please enter a new name for the list");
+            var newNode = Console.ReadLine();
+            Console.WriteLine("Enter the name to insert AFTER");
+            var whereNode = Console.ReadLine();
+            lnklist.DubLinkLists(newNode, whereNode);
+
 
             Console.Read();
+
+
         }
     }
 }
