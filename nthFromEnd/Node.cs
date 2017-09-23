@@ -7,6 +7,8 @@ namespace FIndMiddle
     public class Node
     {
         public Node Next;
+        public Node Tail;
+        public Node Prev;
         public object Value;
     }
 }
