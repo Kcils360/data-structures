@@ -4,20 +4,43 @@ using System.Text;
 
 namespace stacksAndQueues
 {
-    class Stacks
+
+    class Stack
     {
         public Node Head { get; set; }
         public Node Tail { get; set; }
-        public Stack(int Data)
+
+        //Empty constructor for when I want to make a stack that doesn't start with a value
+        public Stack()
         {
-            Head = new Node(Data);
+            Head = null;
         }
-        public void Push(int Data)
+
+        //Constructor for when I create a stack I want it created with a Node and set that Node to head
+        public Stack(int data)
         {
-            Node temp = Head;
-            Head = new Node(Data);
-            Head.Next = temp;
+            Head = new Node(data);
+            Tail = Head;
         }
+
+        //Push checking for empty Stack then it's setting a new head on top of the stack and creating a reference to the next below
+        public void Push(int data)
+        {
+            if (Head == null)
+            {
+                Head = new Node(data);
+                Tail = Head;
+            }
+            else
+            {
+                Node temp = Head;
+                Head = new Node(data);
+                Head.Next = temp;
+            }
+
+        }
+
+        //Pop is removing the reference to the top node and returning it
         public int Pop()
         {
             if (Head == Tail)
@@ -25,10 +48,51 @@ namespace stacksAndQueues
                 Tail = null;
             }
             Node temp = Head.Next;
+            Head.Next = null;
             int value = Head.Data;
             Head = temp;
             return value;
         }
-        
+
+        public void View()
+        {
+            Node curr = Head;
+            while (curr != null)
+            {
+                Console.WriteLine(curr.Data);
+                curr = curr.Next;
+            }
+        }
+
+        public void SortStack(Stack stackData)
+        {
+            Stack filter = new Stack();
+            Stack queue = new Stack();
+
+
+            filter.Push(stackData.Pop());
+            while (stackData.Head != null)
+            {
+                if (filter.Head.Data >= stackData.Head.Data)
+                {
+                    queue.Push(filter.Pop());
+                    filter.Push(stackData.Pop());
+                }
+                else
+                {
+                    queue.Push(stackData.Pop());
+                }
+                if (stackData.Head == null)
+                {
+                    while (queue.Head != null)
+                    {
+                        stackData.Push(queue.Pop());
+                    }
+                    filter.Push(stackData.Pop());
+                }
+            }
+            filter.View();
+        }
     }
+    
 }
